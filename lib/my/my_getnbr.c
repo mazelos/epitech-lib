@@ -7,7 +7,7 @@
 
 int my_strlen(char const *str);
 
-int my_getnbr(char* str)
+int my_getnbr(char *str)
 {
     int str_len = my_strlen(str);
     int result = 0;

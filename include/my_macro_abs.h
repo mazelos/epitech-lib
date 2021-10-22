@@ -5,4 +5,9 @@
 ** nope
 */
 
+#ifndef MYMACRO_H
+#define MYMACRO_H
+
 #define ABS(nb) (nb >= 0 ? nb : nb / -1)
+
+#endif

@@ -19,4 +19,3 @@ clean:
 
 fclean:
 			rm -f $(NAME)
-

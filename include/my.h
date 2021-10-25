@@ -5,8 +5,8 @@
 ** nope
 */
 
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef LIBMY_H
+#define LIBMY_H
 
 void my_putchar(char);
 char *my_strstr(char *, char const *);

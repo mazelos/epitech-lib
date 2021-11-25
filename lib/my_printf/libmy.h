@@ -10,11 +10,11 @@
 
 void my_putchar(char);
 int my_put_nbr(int);
-int my_put_unbr(unsigned int nb);
+int my_put_unbr(unsigned int);
 void my_putstr(char const *);
 int my_strlen(char const *);
 void my_putbase(long long int, const char *);
-void print_str_slice(char *, int);
+void my_putstr_n(char *, int);
 void my_putfloat(float, int);
 
 #endif

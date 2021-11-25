@@ -14,7 +14,7 @@ void print_args(char *s, va_list args, input_flags_t *input_flags,
 {
     input_flags_t *curr_flag = input_flags;
     while (curr_flag) {
-        print_str_slice(s, curr_flag->str_i);
+        my_putstr_n(s, curr_flag->str_i);
         flags_t *flag_op = get_flag_op(curr_flag->flag, flags_list);
         flag_op->print(args);
         s = s + (curr_flag->str_i + 2);

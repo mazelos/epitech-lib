@@ -5,8 +5,8 @@
 ** prototypes of print fnctions
 */
 
-#ifndef PRINT_H
-    #define PRINT_H
+#ifndef MY_PRINTF_PRINTFN_H_
+    #define MY_PRINTF_PRINTFN_H_
 
 void print_char(va_list);
 void print_mod_char(va_list);

@@ -5,12 +5,12 @@
 ** utils_lib h file
 */
 
-#ifndef LIBMY_H
-    #define LIBMY_H
+#ifndef MY_PRINTF_MY_H
+    #define MY_PRINTF_MY_H
 
 void my_putchar(char);
-int my_put_nbr(int);
-int my_put_unbr(unsigned int);
+int my_putnbr(int);
+int my_putunbr(unsigned int);
 void my_putstr(char const *);
 int my_strlen(char const *);
 void my_putbase(long long int, const char *);

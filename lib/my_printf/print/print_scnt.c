@@ -18,5 +18,5 @@ void print_scnt(va_list args)
     }
     my_putfloat(nb, 6);
     my_putstr(i < 10 ? "e+0" : "e+");
-    my_put_nbr(i);
+    my_putnbr(i);
 }

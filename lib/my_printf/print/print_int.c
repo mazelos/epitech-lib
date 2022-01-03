@@ -11,11 +11,11 @@
 void print_int(va_list args)
 {
     int nb = (int)va_arg(args, int);
-    my_put_nbr(nb);
+    my_putnbr(nb);
 }
 
 void print_uint(va_list args)
 {
     int nb = (int)va_arg(args, int);
-    my_put_unbr(nb);
+    my_putunbr(nb);
 }

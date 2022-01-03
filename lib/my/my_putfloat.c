@@ -7,7 +7,7 @@
 
 int my_calc_pow(int nb, int p);
 
-int my_put_nbr(int nb);
+int my_putnbr(int nb);
 
 void my_putchar(char c);
 
@@ -17,7 +17,7 @@ void my_putfloat(float nb, int precision)
         nb *= -1;
         my_putchar('-');
     }
-    my_put_nbr((int)nb);
+    my_putnbr((int)nb);
     if (precision == 0) {
         return;
     }
@@ -27,5 +27,5 @@ void my_putfloat(float nb, int precision)
     if ((int)nb == 0) {
         my_putchar('0');
     }
-    my_put_nbr((int)nb);
+    my_putnbr((int)nb);
 }

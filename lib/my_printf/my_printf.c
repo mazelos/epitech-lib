@@ -9,7 +9,7 @@
 #include "libmy.h"
 #include "my_printf.h"
 
-void print_args(char *s, va_list args, input_flags_t *input_flags,
+static void print_args(char *s, va_list args, input_flags_t *input_flags,
     flags_t *flags_list)
 {
     input_flags_t *curr_flag = input_flags;

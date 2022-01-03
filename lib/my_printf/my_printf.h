@@ -5,13 +5,13 @@
 ** my_printf functions
 */
 
-#ifndef MYPRINTF_H
-    #define MYPRINTF_H
+#ifndef MY_PRINTF_H_
+    #define MY_PRINTF_H_
 
     #include <stdarg.h>
     #include <stdlib.h>
     #include "print.h"
-    
+
     #define HEX_BASE "0123456789abcdef"
     #define UHEX_BASE "0123456789ABCDEF"
     #define OCT_BASE "01234567"

@@ -1,5 +1,15 @@
+# ignore all binary files (no extensions)
+*
+!*.*
+!*/
+!Makefile
+
+# ignore other specific files
+*.out
 cmake*
+*.txt
 .idea*
 *.o
 *.a
 *~
+vgcore.*

@@ -1,3 +1,7 @@
-# libmy
+# Custom library for C
 
-Set of lib files for Epitech students, with some additional useful functions.
+A set of useful function for C.</br>
+Includes:
+- part of Epitech Libmy functions
+- a replica of Printf
+- other useful functions

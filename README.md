@@ -1,4 +1,4 @@
-# Custom library for C
+# Custom C library for Epitech students
 
 A set of useful function for C.</br>
 Includes:

@@ -25,12 +25,14 @@ char *my_strncpy(char *, char const *, int);
 int my_getnbr(char *);
 int my_is_nbr(char *);
 int my_calc_pow(int, int);
+float my_sqrt(float);
 
 char my_char_lowcase(char);
 int my_find_in_arr(char, char *);
 char *my_str_to_bin(char *);
 char *my_bin_to_str(char *);
 void my_error(char *);
+int *my_random(int, int);
 
 int my_printf(char *, ...);
 

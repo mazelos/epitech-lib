@@ -4,6 +4,7 @@ This is a set of useful C functions for Epitech projects.</br></br>
 Includes:
 - part of Epitech's Libmy functions
 - a replica of Printf
-- other useful functions
+- some utils
+- csfml helpers
 
-my_utils can contain banned functions for some projects (like time, rand...), remember to delete them if not allowed in your project.
+some functions can be banned for some projects (like time, rand, csfml helpers...), remember to delete them if not allowed in your project.

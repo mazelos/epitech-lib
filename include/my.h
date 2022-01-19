@@ -33,6 +33,7 @@ char *my_str_to_bin(char *);
 char *my_bin_to_str(char *);
 void my_error(char *);
 int *my_random(int, int);
+int my_arrlen(const char **);
 
 int my_printf(char *, ...);
 

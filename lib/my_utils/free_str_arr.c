@@ -1,18 +1,20 @@
 /*
 ** EPITECH PROJECT, 2021
-** no
+** No filename
 ** File description:
 ** No description
 */
 
 #include <stdlib.h>
 
-int my_arrlen(const char **arr)
+void free_str_arr(char **arr)
 {
     if (!arr)
-        return 0;
+        return;
     int i = 0;
-    while (arr[i] != NULL)
+    while (arr[i]) {
+        free(arr[i]);
         i++;
-    return i;
+    }
+    free(arr);
 }

@@ -8,6 +8,7 @@
 #ifndef MY_H_
     #define MY_H_
 
+int my_printf(char *, ...);
 void my_putchar(char);
 void my_putstr(char const *);
 void my_putstr_n(char *, int);
@@ -18,9 +19,16 @@ void my_putbase(long long int, const char *);
 
 int my_strlen(char const *);
 char *my_strcat(char *, char *);
+char *my_strdup(char const *);
+char *my_strndup(char const *, int);
 int my_strcmp(char const *, char const *);
+int my_strcmpc(char const *, char const *, char);
 int my_strcmp_nocase(char const *, char const *);
 char *my_strncpy(char *, char const *, int);
+char **split_str(char *, char);
+char *trim_str(char *);
+int str_find(char, char *);
+char *splice_str(char *, int, int);
 
 int my_getnbr(char *);
 int my_is_nbr(char *);
@@ -33,8 +41,12 @@ char *my_str_to_bin(char *);
 char *my_bin_to_str(char *);
 void my_error(char *);
 int *my_random(int, int);
-int my_arrlen(const char **);
-
-int my_printf(char *, ...);
+void my_error(char *);
+int my_arrlen(char **);
+void free_str_arr(char **);
+int str_arr_find(char **, char *);
+char **merge_str_arr(char **, char **);
+char **splice_arr(char **, int, int);
+void print_str_arr(char **);
 
 #endif
